@@ -1,0 +1,148 @@
+.all-template-button {
+  background-color: indianred;
+  border-radius: 40px;
+  font-size: 1rem;
+  border-style: none;
+  color: white;
+}
+
+.nav-bar {
+  display: flex;
+  display: flex;
+  width: 100%;
+  background-color: transparent;
+  justify-content: space-evenly;
+}
+.nav-bar a {
+  text-decoration: none;
+  color: black;
+  font-size: 1rem;
+}
+.nav-bar :hover {
+  color: maroon;
+}
+
+.uphold {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  align-items: stretch;
+}
+.uphold .uphold-content {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../assets/images/pattern.png);
+  background-size: 250%;
+  background-position: center;
+  background-color: #1e1e1e;
+}
+.uphold .uphold-content .logo {
+  text-align: center;
+  width: 100%;
+  font-size: xx-large;
+  margin-top: 10%;
+}
+.uphold .uphold-content .logo img {
+  vertical-align: middle;
+}
+.uphold .uphold-content .logo span {
+  color: white;
+  font-size: 2rem;
+  vertical-align: middle;
+}
+.uphold .uphold-content h1 {
+  padding: 30px;
+  text-align: left;
+  font-size: 1.8rem;
+  color: white;
+}
+.uphold .uphold-content .description {
+  padding: 30px;
+  text-align: left;
+  font-size: 1.6rem;
+  color: light-grey;
+}
+.uphold .uphold-image {
+  height: 80vh;
+  overflow: hidden;
+  position: relative;
+}
+.uphold .uphold-image .bg-2 {
+  position: absolute;
+  left: 0;
+  bottom: 15%;
+  width: 100%;
+}
+.uphold .uphold-image .bg-3 {
+  position: absolute;
+  left: 0;
+  bottom: 18%;
+  width: 100%;
+}
+.uphold .uphold-image .bg-4 {
+  position: absolute;
+  left: 0;
+  bottom: 15%;
+  width: 100%;
+}
+
+.steps h2 {
+  text-align: center;
+  padding: 40px;
+  font-size: 3rem;
+}
+.steps h2 span {
+  color: red;
+}
+.steps .steps-discription {
+  display: flex;
+}
+.steps .steps-discription .images {
+  width: 50%;
+}
+.steps .steps-discription .images .card-image {
+  width: 15%;
+  height: 160vh;
+}
+.steps .steps-discription h2 {
+  align-self: center;
+}
+
+.carousel {
+  display: flex;
+}
+
+.qoutes .image-quotes {
+  margin-left: 50%;
+}
+.qoutes .author {
+  display: flex;
+  align-items: center;
+}
+.qoutes .author .circle-image {
+  background-size: cover;
+  border-radius: 50% 50% 50% 50%;
+  width: 10rem;
+  height: 30vh;
+}
+.qoutes .author .name {
+  flex-grow: 1;
+  /* each flex-item grows and takes 1/3 of the parent's width */
+}
+.qoutes .author .position {
+  flex-grow: 1;
+  /* each flex-item grows and takes 1/3 of the parent's width */
+}
+
+.footer {
+  display: flex;
+}
+.footer .logo {
+  width: 30%;
+  font-size: large;
+}
+.footer .quick-link {
+  display: flex;
+}
+
+/*# sourceMappingURL=styles.css.map */
