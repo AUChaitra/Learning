@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+* {
+  font-family: "poppins";
+}
+
 .all-template-button {
   background-color: indianred;
   border-radius: 40px;
@@ -60,7 +65,7 @@
   padding: 30px;
   text-align: left;
   font-size: 1.6rem;
-  color: light-grey;
+  color: grey;
 }
 .uphold .uphold-image {
   height: 80vh;
@@ -89,49 +94,98 @@
 .steps h2 {
   text-align: center;
   padding: 40px;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 .steps h2 span {
   color: red;
 }
-.steps .steps-discription {
+.steps .steps-discription-1 {
   display: flex;
 }
-.steps .steps-discription .images {
-  width: 50%;
+.steps .steps-discription-1 .images-discription-1 {
+  display: inline-flex;
 }
-.steps .steps-discription .images .card-image {
-  width: 15%;
-  height: 160vh;
+.steps .steps-discription-1 .images-discription-1 .card-image {
+  width: 10em;
+  height: auto;
 }
-.steps .steps-discription h2 {
-  align-self: center;
+.steps .steps-discription-2 {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.steps .steps-discription-2 .images-discription-2 {
+  display: inline-flex;
+}
+.steps .steps-discription-3 {
+  display: flex;
+}
+.steps .steps-discription-3 .images-discription-3 {
+  display: grid;
 }
 
 .carousel {
   display: flex;
+  background-color: #272727;
+}
+.carousel .slider {
+  width: 100%;
+  align-self: center;
+  margin-left: 15%;
+}
+.carousel .slider .dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.carousel .slider .dot.active {
+  background-color: black;
+}
+.carousel .slider .slider-wapper {
+  width: 35%;
+}
+.carousel .slider .slider-wapper .carousel-item {
+  display: none;
+}
+.carousel .slider .slider-wapper .carousel-item .heading {
+  color: white;
+  font-size: 25px;
+}
+.carousel .slider .slider-wapper .carousel-item .text {
+  font-size: 18px;
+  height: auto;
+  padding-top: 20px;
+  line-height: 2;
+  color: grey;
+}
+.carousel .slider .slider-wapper .carousel-item.active {
+  display: block;
 }
 
 .qoutes .image-quotes {
   margin-left: 50%;
 }
+.qoutes .quote-text {
+  display: none;
+  width: 100%;
+  line-height: 1.8;
+  text-align: center;
+}
+.qoutes .quote-text.active {
+  display: block;
+}
 .qoutes .author {
   display: flex;
   align-items: center;
+  margin-top: 5%;
+  margin-left: 30%;
 }
 .qoutes .author .circle-image {
-  background-size: cover;
-  border-radius: 50% 50% 50% 50%;
-  width: 10rem;
-  height: 30vh;
-}
-.qoutes .author .name {
-  flex-grow: 1;
-  /* each flex-item grows and takes 1/3 of the parent's width */
-}
-.qoutes .author .position {
-  flex-grow: 1;
-  /* each flex-item grows and takes 1/3 of the parent's width */
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
 }
 
 .footer {
@@ -143,6 +197,7 @@
 }
 .footer .quick-link {
   display: flex;
+  column-gap: 100px;
 }
 
 /*# sourceMappingURL=styles.css.map */

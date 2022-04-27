@@ -3,6 +3,8 @@
 <head>
 <meta charset=utf-8>
 <link rel="stylesheet" type="text/css" href="css/styles.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="scripts/webmini.js"></script>
 <title>Webtrigon</title>
 </head>
 <body>
@@ -56,17 +58,18 @@
 	</section>
 	<section class="steps">
 		<h2>How it <span>works?</span></h2>
-		<section class="steps-discription">
-			<figure class="images">
-				<img src="assets/images/rise.jpeg" class="card-image">
-				<img src="assets/images/fundzin.jpeg" class="card-image">
-				<img src="assets/images/dojo.jpeg" class="card-image">
-				<img src="assets/images/tablet.png">
-				<img src="assets/images/laptop.png">
-				<img src="assets/images/phone.png">
-				<img src="assets/images/desktop.png">
+		<section class="steps-discription-1">
+			<figure class="images-discription-1">
+				<figure class="round-img"><img src="assets/images/tablet.png"></figure>
+				<figure class="round-img" ><img src="assets/images/laptop.png"></figure>
+				<figure class="card-image"><img src="assets/images/rise.jpeg"></figure>
+				<figure class="card-image"><img src="assets/images/fundzin.jpeg"></figure>
+				<figure class="card-image"><img src="assets/images/dojo.jpeg"></figure>
+				<figure class="round-img"><img src="assets/images/phone.png"></figure>
+				<figure class="round-img"><img src="assets/images/desktop.png"></figure>
 			</figure>
-			<article class="points">
+			
+			<article class="points-discription-1">
 				
 			<h2>1. Select template of your choice</h2>
 			<ul>
@@ -78,13 +81,17 @@
 			</article>
 
 		</section>
-		<section class="steps-discription">
-			<figure class="images">
-				<img src="assets/images/dojo.jpeg" class="card-image">
-				<img src="assets/images/arrow.png" >
-				<img src="assets/images/form.png" class="card-image">
+		<section class="steps-discription-2">
+			<figure class="images-discription-2">
+				<figure>
+					<img src="assets/images/dojo.jpeg" class="card-image">
+				</figure>
+				<figure>
+					<img src="assets/images/arrow.png" >
+					<img src="assets/images/form.png" class="card-image">
+				</figure>
 			</figure>
-			<article class="points">
+			<article class="points-discription-2">
 			<h2>2. Let us know your preference</h2>
 			<ul>
 				<li>explicabo dolorum debitis animi perspiciatis quas ad deserunt qui fuga.</li>
@@ -93,12 +100,12 @@
 			</ul>
 			</article>
 		</section>
-		<section class="steps-discription">
-			<figure class="images">
+		<section class="steps-discription-3">
+			<figure class="images-discription-3">
 				<img src="assets/images/searchbar.png" >
 				<img src="assets/images/dojo.jpeg" class="card-image">
 			</figure>
-			<article class="points">
+			<article class="points-discription-3">
 			<h2>3. Expect delivery in 48 hours window</h2>
 			<ul>
 				<li>explicabo dolorum debitis animi perspiciatis quas ad deserunt qui fuga.</li>
@@ -109,20 +116,28 @@
 		</section>
 	</section>
 	<section class="carousel">
-		<div class="slider">
-			<div class="carousel-item">
-				<h2>Using web architecture one</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere molestias tempora dolorum veritatis earum omnis expedita harum, cum, ad voluptatem distinctio similique eos accusantium perspiciatis mollitia assumenda commodi ipsa quaerat.</p>
-			</div>
-			<div class="carousel-item">
-				<h2>Using web architecture two</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere molestias tempora dolorum veritatis earum omnis expedita harum, cum, ad voluptatem distinctio similique eos accusantium perspiciatis mollitia assumenda commodi ipsa quaerat.</p>
-			</div>
-			<div class="carousel-item">
-				<h2>Using web architecture three</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere molestias tempora dolorum veritatis earum omnis expedita harum, cum, ad voluptatem distinctio similique eos accusantium perspiciatis mollitia assumenda commodi ipsa quaerat.</p>
-			</div>
-		</div>
+		<section class="slider">
+			<section class="dot-wapper">
+			  <span class="dot"></span> 
+			  <span class="dot"></span> 
+			  <span class="dot"></span> 
+			</section>
+
+			<section class="slider-wapper">
+				<div class="carousel-item">
+					<h2 class="heading">Using web architecture 1</h2>
+					<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere molestias tempora dolorum veritatis earum omnis expedita harum, cum, ad voluptatem.</p>
+				</div>
+				<div class="carousel-item">
+					<h2 class="heading">Using web architecture 2</h2>
+					<p class="text">ad voluptatem distinctio similique eos accusantium perspiciatis mollitia assumenda commodi ipsa quaerat.</p>
+				</div>
+				<div class="carousel-item">
+					<h2 class="heading">Using web architecture 3</h2>
+					<p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere molestias tempora dolorum veritatis perspiciatis mollitia assumenda commodi ipsa quaerat.</p>
+				</div>
+			</section>
+		</section>
 		<section class="carousel-image">
 				<img src="assets/images/web-architecture.png">
 		</section>
@@ -131,33 +146,30 @@
 	<section class="qoutes">
 		<img src="assets/images/quote.png" class="image-quotes">
 		<article class="quote">
-			<div class="quote-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam iure reiciendis, quidem, recusandae mollitia, aliquam ullam harum aperiam magnam eligendi unde quas soluta vel libero sequi in, voluptatum deleniti dolores! consectetur adipisicing elit. Quam iure reiciendis, consectetur adipisicing elit. Quam iure reiciendis, consectetur .Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam iure reiciendis, quidem, recusandae mollitia, aliquam ullam harum aperiam magnam eligendi unde quas soluta vel libero sequi in, voluptatum deleniti dolores! consectetur adipisicing elit. Quam iure reiciendis, consectetur adipisicing elit. Quam iure reiciendis, consectetur .</div>
-			<div class="quote-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam iure reiciendis, quidem, recusandae mollitia, aliquam ullam harum aperiam magnam eligendi unde quas soluta vel libero sequi in, voluptatum deleniti dolores! consectetur adipisicing elit. Quam iure reiciendis, consectetur adipisicing elit. Quam iure reiciendis, consectetur .Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam iure reiciendis, quidem, recusandae mollitia, aliquam ullam harum aperiam magnam eligendi unde quas soluta vel libero sequi in, voluptatum deleniti dolores! consectetur adipisicing elit. Quam iure reiciendis, consectetur adipisicing elit. Quam iure reiciendis, consectetur .</div>
-			<div class="quote-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam iure reiciendis, quidem, recusandae mollitia, aliquam ullam harum aperiam magnam eligendi unde quas soluta vel libero sequi in, voluptatum deleniti dolores! consectetur adipisicing elit. Quam iure reiciendis, consectetur adipisicing elit. Quam iure reiciendis, consectetur .Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam iure reiciendis, quidem, recusandae mollitia, aliquam ullam harum aperiam magnam eligendi unde quas soluta vel libero sequi in, voluptatum deleniti dolores! consectetur adipisicing elit. Quam iure reiciendis, consectetur adipisicing elit. Quam iure reiciendis, consectetur .</div>
+			<div class="quote-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam iure reiciendis, quidem, recusandae mollitia, aliquam ullam harum aperiam magnam eligendi unde quas soluta vel libero sequi in, voluptatum deleniti dolores! consectetur adipisicing elit. Quam iure reiciendis, consectetur adipisicing elit. Quam iure reiciendis, consectetur .Lorem ipsum dolor sit amet.</div>
+			<div class="quote-text">Consectetur adipisicing elit. Quam iure reiciendis, quidem, recusandae mollitia, aliquam ullam harum aperiam magnam eligendi unde quas soluta vel libero sequi in, voluptatum deleniti dolores! consectetur adipisicing elit. Quam iure reiciendis, consectetur adipisicing elit. Quam iure reiciendis, consectetur .</div>
+			<div class="quote-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam iure reiciendis, quidem, recusandae mollitia, aliquam ullam harum aperiam magnam eligendi unde quas soluta vel libero sequi in.</div>
 		</article>
 
 		<section class="author">
 			<img src="assets/images/face1.jpeg" class="circle-image">
-			<div class="name">Lorem Ipsum</div>
-			<div class="position">Cuitine Le DeCEO</div>
+			<span>Lorem Ipsum<br>Cuitine Le DeCEO</span>
 		
 			<img src="assets/images/face2.jpeg" class="circle-image">
-			<div class="name">Lorem Ipsum</div>
-			<div class="position">Cuitine Le DeCEO</div>
+			<span>Lorem Ipsum<br>Cuitine Le DeCEO</span>
 	
 			<img src="assets/images/face3.jpeg" class="circle-image">
-			<div class="name">Lorem Ipsum</div>
-			<div class="position">Cuitine Le DeCEO</div>
+			<span>Lorem Ipsum<br>Cuitine Le DeCEO</span>
 		</section>
 
 	</section>
 </main>
-<footer>
-	<section class="footer-container">
-		<div class="">
-			<p><span>What are you waiting for ?</span>
+<footer class="footer-container">
+	<section class="footer">
+		<div>
+			<p>What are you waiting for ?</p>
 			Be a citizen of online community. Get a website right now!</p>
-		</div class="">
+		</div>
 		<div>
 			<a href="" class="all-template-button">All Template</a>
 		</div>
@@ -196,3 +208,6 @@
 </footer>
 </body>
 </html> 
+
+
+
