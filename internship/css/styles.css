@@ -1,14 +1,54 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css");
 * {
   font-family: "poppins";
 }
 
 .all-template-button {
-  background-color: indianred;
-  border-radius: 40px;
-  font-size: 1rem;
-  border-style: none;
+  background-color: #c45c5d;
+  border-radius: 30px;
   color: white;
+  padding: 20px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.search-button {
+  background-color: #c45c5d;
+  text-align: center;
+  display: inline-block;
+  width: 120px;
+  float: right;
+  padding: 1%;
+}
+
+.search-button:before {
+  content: "";
+  position: absolute;
+  left: 73%;
+  top: 30px;
+  border: 20px solid transparent;
+  border-right: 30px solid #c45c5d;
+}
+
+.search-icon {
+  width: 24%;
+}
+
+.searchbar {
+  border: 7px solid #e5e5e7;
+  background-color: #f0f0f0;
+  width: 90%;
+}
+.searchbar input {
+  border: 0;
+  padding-left: 20px;
+  color: #a6a8ab;
+  background-color: transparent;
+  padding: 15px;
+  width: 50%;
 }
 
 .nav-bar {
@@ -34,41 +74,34 @@
   align-items: stretch;
 }
 .uphold .uphold-content {
-  width: 100%;
+  width: 35%;
   height: 100vh;
   background-image: url(../assets/images/pattern.png);
   background-size: 250%;
   background-position: center;
   background-color: #1e1e1e;
 }
-.uphold .uphold-content .logo {
-  text-align: center;
-  width: 100%;
-  font-size: xx-large;
-  margin-top: 10%;
-}
-.uphold .uphold-content .logo img {
-  vertical-align: middle;
-}
-.uphold .uphold-content .logo span {
-  color: white;
-  font-size: 2rem;
-  vertical-align: middle;
-}
-.uphold .uphold-content h1 {
-  padding: 30px;
-  text-align: left;
-  font-size: 1.8rem;
-  color: white;
-}
 .uphold .uphold-content .description {
   padding: 30px;
   text-align: left;
-  font-size: 1.6rem;
+  font-size: 22px;
   color: grey;
+  margin-top: 30%;
+}
+.uphold .uphold-content .description img {
+  vertical-align: middle;
+}
+.uphold .uphold-content .description span {
+  color: white;
+  font-size: 25px;
+  vertical-align: middle;
+}
+.uphold .uphold-content .description h1 {
+  font-size: 25px;
+  color: white;
 }
 .uphold .uphold-image {
-  height: 80vh;
+  width: 65%;
   overflow: hidden;
   position: relative;
 }
@@ -87,8 +120,26 @@
 .uphold .uphold-image .bg-4 {
   position: absolute;
   left: 0;
+  bottom: 7%;
+  width: 100%;
+}
+.uphold .uphold-image .grass {
+  position: absolute;
+  left: 0;
   bottom: 15%;
   width: 100%;
+}
+.uphold .uphold-image .shops {
+  position: absolute;
+  left: 0;
+  bottom: 15%;
+  width: 100%;
+}
+.uphold .uphold-image .lights {
+  position: absolute;
+  left: 0;
+  bottom: 15%;
+  width: 95%;
 }
 
 .steps h2 {
